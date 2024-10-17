@@ -1,0 +1,3475 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Równoliczność zbiorów,
+ zbiory co najwyżej przeliczalne,
+ zbiory mocy continuum,
+ przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Definicja równoliczności}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dwa zbiory $A$ i $B$ są równoliczne,
+ jeśli istnieje bijekcja $f:
+ A 
+\backslash
+to B$.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Zbiory co najwyżej przeliczalne}
+\end_layout
+
+\begin_layout Plain Layout
+
+Zbiór $A$ jest co najwyżej przeliczalny,
+ jeśli jest skończony lub równoliczny ze zbiorem liczb naturalnych $
+\backslash
+mathbb{N}$.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Zbiory mocy continuum}
+\end_layout
+
+\begin_layout Plain Layout
+
+Zbiór ma moc continuum,
+ jeśli jest równoliczny z przedziałem $(0,1)$ lub z $
+\backslash
+mathbb{R}$.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+mathbb{N}$,
+ $
+\backslash
+mathbb{Z}$,
+ $
+\backslash
+mathbb{Q}$ są przeliczalne
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+mathbb{R}$,
+ $(0,1)$,
+ $
+\backslash
+mathcal{P}(
+\backslash
+mathbb{N})$ mają moc continuum
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Zbiór funkcji $f:
+ 
+\backslash
+mathbb{R} 
+\backslash
+to 
+\backslash
+mathbb{R}$ ma moc większą niż continuum
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Relacja równoważności.
+ Klasy abstrakcji relacji równoważności.
+ Przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Definicja relacji równoważności}
+\end_layout
+
+\begin_layout Plain Layout
+
+Relacja $R$ na zbiorze $A$ jest relacją równoważności,
+ jeśli jest:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Zwrotna:
+ $
+\backslash
+forall a 
+\backslash
+in A:
+ aRa$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Symetryczna:
+ $
+\backslash
+forall a,b 
+\backslash
+in A:
+ aRb 
+\backslash
+Rightarrow bRa$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Przechodnia:
+ $
+\backslash
+forall a,b,c 
+\backslash
+in A:
+ (aRb 
+\backslash
+wedge bRc) 
+\backslash
+Rightarrow aRc$
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Klasy abstrakcji}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dla $a 
+\backslash
+in A$,
+ klasa abstrakcji $[a]_R = 
+\backslash
+{x 
+\backslash
+in A :
+ xRa
+\backslash
+}$
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Kongruencja modulo $n$:
+ $a 
+\backslash
+equiv b 
+\backslash
+pmod{n}$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Równoległość prostych na płaszczyźnie
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Relacja "mieć tę samą długość" na zbiorze odcinków
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Relacje częściowego porządku,
+ rodzaje porządków,
+ izomorfizmy porządkowe,
+ elementy wyróżnione w porządku i relacje między nimi}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Definicja relacji częściowego porządku}
+\end_layout
+
+\begin_layout Plain Layout
+
+Relacja $
+\backslash
+leq$ na zbiorze $A$ jest częściowym porządkiem,
+ jeśli jest:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Zwrotna:
+ $
+\backslash
+forall a 
+\backslash
+in A:
+ a 
+\backslash
+leq a$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Antysymetryczna:
+ $
+\backslash
+forall a,b 
+\backslash
+in A:
+ (a 
+\backslash
+leq b 
+\backslash
+wedge b 
+\backslash
+leq a) 
+\backslash
+Rightarrow a = b$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Przechodnia:
+ $
+\backslash
+forall a,b,c 
+\backslash
+in A:
+ (a 
+\backslash
+leq b 
+\backslash
+wedge b 
+\backslash
+leq c) 
+\backslash
+Rightarrow a 
+\backslash
+leq c$
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Rodzaje porządków}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Porządek liniowy:
+ $
+\backslash
+forall a,b 
+\backslash
+in A:
+ a 
+\backslash
+leq b 
+\backslash
+vee b 
+\backslash
+leq a$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Porządek dobry:
+ każdy niepusty podzbiór ma element minimalny
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Porządek gęsty:
+ między każdymi dwoma elementami istnieje trzeci
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Izomorfizmy porządkowe}
+\end_layout
+
+\begin_layout Plain Layout
+
+Bijekcja $f:
+ A 
+\backslash
+to B$ zachowująca porządek:
+ $x 
+\backslash
+leq_A y 
+\backslash
+Leftrightarrow f(x) 
+\backslash
+leq_B f(y)$
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Elementy wyróżnione}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Element minimalny:
+ $m 
+\backslash
+in A:
+ 
+\backslash
+forall a 
+\backslash
+in A:
+ m 
+\backslash
+leq a 
+\backslash
+Rightarrow m = a$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Element maksymalny:
+ $M 
+\backslash
+in A:
+ 
+\backslash
+forall a 
+\backslash
+in A:
+ a 
+\backslash
+leq M 
+\backslash
+Rightarrow a = M$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Najmniejszy element (minimum):
+ $
+\backslash
+min A 
+\backslash
+in A:
+ 
+\backslash
+forall a 
+\backslash
+in A:
+ 
+\backslash
+min A 
+\backslash
+leq a$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Największy element (maksimum):
+ $
+\backslash
+max A 
+\backslash
+in A:
+ 
+\backslash
+forall a 
+\backslash
+in A:
+ a 
+\backslash
+leq 
+\backslash
+max A$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Kres dolny:
+ $
+\backslash
+inf B 
+\backslash
+in A:
+ (
+\backslash
+forall b 
+\backslash
+in B:
+ 
+\backslash
+inf B 
+\backslash
+leq b) 
+\backslash
+wedge (
+\backslash
+forall x 
+\backslash
+in A:
+ (
+\backslash
+forall b 
+\backslash
+in B:
+ x 
+\backslash
+leq b) 
+\backslash
+Rightarrow x 
+\backslash
+leq 
+\backslash
+inf B)$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Kres górny:
+ $
+\backslash
+sup B 
+\backslash
+in A:
+ (
+\backslash
+forall b 
+\backslash
+in B:
+ b 
+\backslash
+leq 
+\backslash
+sup B) 
+\backslash
+wedge (
+\backslash
+forall x 
+\backslash
+in A:
+ (
+\backslash
+forall b 
+\backslash
+in B:
+ b 
+\backslash
+leq x) 
+\backslash
+Rightarrow 
+\backslash
+sup B 
+\backslash
+leq x)$
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Granica ciągu liczbowego,
+ granica i ciągłość funkcji,
+ przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Granica ciągu}
+\end_layout
+
+\begin_layout Plain Layout
+
+$
+\backslash
+lim_{n
+\backslash
+to
+\backslash
+infty} a_n = a 
+\backslash
+Leftrightarrow 
+\backslash
+forall 
+\backslash
+varepsilon > 0 
+\backslash
+exists N 
+\backslash
+in 
+\backslash
+mathbb{N} 
+\backslash
+forall n > N:
+ |a_n - a| < 
+\backslash
+varepsilon$
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Granica funkcji}
+\end_layout
+
+\begin_layout Plain Layout
+
+$
+\backslash
+lim_{x
+\backslash
+to x_0} f(x) = L 
+\backslash
+Leftrightarrow 
+\backslash
+forall 
+\backslash
+varepsilon > 0 
+\backslash
+exists 
+\backslash
+delta > 0 
+\backslash
+forall x:
+ 0 < |x - x_0| < 
+\backslash
+delta 
+\backslash
+Rightarrow |f(x) - L| < 
+\backslash
+varepsilon$
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Ciągłość funkcji}
+\end_layout
+
+\begin_layout Plain Layout
+
+$f$ jest ciągła w $x_0$,
+ jeśli $
+\backslash
+lim_{x
+\backslash
+to x_0} f(x) = f(x_0)$
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+lim_{n
+\backslash
+to
+\backslash
+infty} 
+\backslash
+frac{1}{n} = 0$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+lim_{x
+\backslash
+to 0} 
+\backslash
+sin x = 0$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $f(x) = x^2$ jest ciągła w każdym punkcie
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Kryteria zbieżności szeregów liczbowych,
+ przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Kryteria zbieżności}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Kryterium porównawcze:
+ Jeśli $0 
+\backslash
+leq a_n 
+\backslash
+leq b_n$ i $
+\backslash
+sum b_n$ jest zbieżny,
+ to $
+\backslash
+sum a_n$ jest zbieżny
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Kryterium d'Alemberta:
+ Jeśli $
+\backslash
+lim_{n
+\backslash
+to
+\backslash
+infty} |
+\backslash
+frac{a_{n+1}}{a_n}| < 1$,
+ to szereg jest zbieżny
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Kryterium Cauchy'ego:
+ Jeśli $
+\backslash
+lim_{n
+\backslash
+to
+\backslash
+infty} 
+\backslash
+sqrt[n]{|a_n|} < 1$,
+ to szereg jest zbieżny
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Kryterium całkowe:
+ Jeśli $f(x)$ jest funkcją nierosnącą i dodatnią,
+ to $
+\backslash
+sum_{n=1}^{
+\backslash
+infty} f(n)$ jest zbieżny wtw,
+ gdy $
+\backslash
+int_1^{
+\backslash
+infty} f(x) dx$ jest zbieżny
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+sum_{n=1}^{
+\backslash
+infty} 
+\backslash
+frac{1}{n^2}$ jest zbieżny (szereg Riemanna)
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+sum_{n=1}^{
+\backslash
+infty} 
+\backslash
+frac{1}{n}$ jest rozbieżny (szereg harmoniczny)
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+sum_{n=0}^{
+\backslash
+infty} x^n$ jest zbieżny dla $|x| < 1$ (szereg geometryczny)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Twierdzenia Cauchy'ego i Lagrange'a o wartości średniej dla pochodnych}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie Lagrange'a}
+\end_layout
+
+\begin_layout Plain Layout
+
+Jeśli funkcja $f$ jest ciągła na $[a,b]$ i różniczkowalna na $(a,b)$,
+ to istnieje $c 
+\backslash
+in (a,b)$ taki,
+ że:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+f'(c) = 
+\backslash
+frac{f(b) - f(a)}{b - a}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie Cauchy'ego}
+\end_layout
+
+\begin_layout Plain Layout
+
+Jeśli funkcje $f$ i $g$ są ciągłe na $[a,b]$ i różniczkowalne na $(a,b)$,
+ oraz $g'(x) 
+\backslash
+neq 0$ dla $x 
+\backslash
+in (a,b)$,
+ to istnieje $c 
+\backslash
+in (a,b)$ taki,
+ że:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frac{f'(c)}{g'(c)} = 
+\backslash
+frac{f(b) - f(a)}{g(b) - g(a)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Twierdzenia o całkowaniu i różniczkowaniu granic ciągów jednostajnie zbieżnych funkcji ciągłych}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie o całkowaniu granicy}
+\end_layout
+
+\begin_layout Plain Layout
+
+Jeśli ciąg funkcji $(f_n)$ jest jednostajnie zbieżny do $f$ na $[a,b]$ i wszystkie $f_n$ są całkowalne,
+ to:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+lim_{n 
+\backslash
+to 
+\backslash
+infty} 
+\backslash
+int_a^b f_n(x) dx = 
+\backslash
+int_a^b 
+\backslash
+lim_{n 
+\backslash
+to 
+\backslash
+infty} f_n(x) dx = 
+\backslash
+int_a^b f(x) dx
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie o różniczkowaniu granicy}
+\end_layout
+
+\begin_layout Plain Layout
+
+Jeśli ciąg funkcji $(f_n)$ jest jednostajnie zbieżny do $f$ na $[a,b]$,
+ wszystkie $f_n$ są różniczkowalne,
+ a ciąg pochodnych $(f'_n)$ jest jednostajnie zbieżny do funkcji $g$ na $[a,b]$,
+ to $f$ jest różniczkowalna i $f' = g$.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Całka Riemanna.
+ Związek pomiędzy całką oznaczoną a nieoznaczoną}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Definicja całki Riemanna}
+\end_layout
+
+\begin_layout Plain Layout
+
+Funkcja $f$ jest całkowalna w sensie Riemanna na $[a,b]$,
+ jeśli istnieje granica:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+int_a^b f(x) dx = 
+\backslash
+lim_{n 
+\backslash
+to 
+\backslash
+infty} 
+\backslash
+sum_{i=1}^n f(c_i)(x_i - x_{i-1})
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+gdzie $(x_i)$ jest podziałem $[a,b]$,
+ a $c_i 
+\backslash
+in [x_{i-1},
+ x_i]$.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Związek między całką oznaczoną a nieoznaczoną}
+\end_layout
+
+\begin_layout Plain Layout
+
+Jeśli $F$ jest funkcją pierwotną dla $f$ na $[a,b]$,
+ to:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+int_a^b f(x) dx = F(b) - F(a)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+To twierdzenie znane jest jako podstawowe twierdzenie rachunku całkowego.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Pochodne cząstkowe funkcji wielu zmiennych,
+ pochodna kierunkowa,
+ różniczka odwzorowania.
+ Jaki jest związek pomiędzy tymi pojęciami?}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Pochodne cząstkowe}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dla funkcji $f(x_1,
+ 
+\backslash
+ldots,
+ x_n)$,
+ pochodna cząstkowa względem $x_i$ to:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frac{
+\backslash
+partial f}{
+\backslash
+partial x_i} = 
+\backslash
+lim_{h 
+\backslash
+to 0} 
+\backslash
+frac{f(x_1,
+ 
+\backslash
+ldots,
+ x_i + h,
+ 
+\backslash
+ldots,
+ x_n) - f(x_1,
+ 
+\backslash
+ldots,
+ x_n)}{h}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Pochodna kierunkowa}
+\end_layout
+
+\begin_layout Plain Layout
+
+Pochodna funkcji $f$ w punkcie $x_0$ w kierunku wektora $v$ to:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+D_v f(x_0) = 
+\backslash
+lim_{t 
+\backslash
+to 0} 
+\backslash
+frac{f(x_0 + tv) - f(x_0)}{t}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Różniczka odwzorowania}
+\end_layout
+
+\begin_layout Plain Layout
+
+Różniczka odwzorowania $f:
+ 
+\backslash
+mathbb{R}^n 
+\backslash
+to 
+\backslash
+mathbb{R}^m$ w punkcie $x_0$ to odwzorowanie liniowe $L:
+ 
+\backslash
+mathbb{R}^n 
+\backslash
+to 
+\backslash
+mathbb{R}^m$ takie,
+ że:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+lim_{h 
+\backslash
+to 0} 
+\backslash
+frac{||f(x_0 + h) - f(x_0) - L(h)||}{||h||} = 0
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Związki między pojęciami}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Pochodne cząstkowe to szczególne przypadki pochodnych kierunkowych dla wektorów bazowych
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Różniczka odwzorowania w punkcie $x_0$ może być reprezentowana przez macierz pochodnych cząstkowych (macierz jakobianu) w tym punkcie
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Pochodna kierunkowa może być wyrażona jako iloczyn skalarny gradientu i wektora kierunku
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Warunek konieczny i dostateczny istnienia ekstremum lokalnego funkcji wielu zmiennych.
+ Przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Warunek konieczny}
+\end_layout
+
+\begin_layout Plain Layout
+
+Jeśli funkcja $f:
+ 
+\backslash
+mathbb{R}^n 
+\backslash
+to 
+\backslash
+mathbb{R}$ ma ekstremum lokalne w punkcie $x_0$,
+ to wszystkie pochodne cząstkowe w tym punkcie są równe zero:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frac{
+\backslash
+partial f}{
+\backslash
+partial x_i}(x_0) = 0 
+\backslash
+quad 
+\backslash
+text{dla}  i = 1,
+ 
+\backslash
+ldots,
+ n
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Warunek dostateczny}
+\end_layout
+
+\begin_layout Plain Layout
+
+Niech $f:
+ 
+\backslash
+mathbb{R}^n 
+\backslash
+to 
+\backslash
+mathbb{R}$ będzie funkcją klasy $C^2$ w otoczeniu punktu $x_0$.
+ Jeśli:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+nabla f(x_0) = 0$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Macierz Hessego $H(x_0)$ jest:
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+        
+\backslash
+item dodatnio określona $
+\backslash
+Rightarrow$ minimum lokalne
+\end_layout
+
+\begin_layout Plain Layout
+
+        
+\backslash
+item ujemnie określona $
+\backslash
+Rightarrow$ maksimum lokalne
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+to $f$ ma ekstremum lokalne w $x_0$.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $f(x,y) = x^2 + y^2$ ma minimum w $(0,0)$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $f(x,y) = x^2 - y^2$ ma punkt siodłowy w $(0,0)$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $f(x,y) = x^3 + y^3 - 3xy$ ma minimum lokalne w $(1,1)$ i maksimum lokalne w $(-1,-1)$
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Równania różniczkowe liniowe i o zmiennych rozdzielonych;
+ metody rozwiązywania}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Równania liniowe pierwszego rzędu}
+\end_layout
+
+\begin_layout Plain Layout
+
+Postać ogólna:
+ $y' + p(x)y = q(x)$
+\end_layout
+
+\begin_layout Plain Layout
+
+Rozwiązanie:
+ $y = e^{-P(x)}(
+\backslash
+int e^{P(x)}q(x)dx + C)$,
+ gdzie $P(x) = 
+\backslash
+int p(x)dx$
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Równania o zmiennych rozdzielonych}
+\end_layout
+
+\begin_layout Plain Layout
+
+Postać ogólna:
+ $
+\backslash
+frac{dy}{dx} = f(x)g(y)$
+\end_layout
+
+\begin_layout Plain Layout
+
+Rozwiązanie:
+ $
+\backslash
+int 
+\backslash
+frac{dy}{g(y)} = 
+\backslash
+int f(x)dx + C$
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Metody rozwiązywania}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Dla równań liniowych:
+ metoda czynnika całkującego
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Dla równań o zmiennych rozdzielonych:
+ separacja zmiennych
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Dla równań wyższych rzędów:
+ redukcja rzędu,
+ metoda przewidywań
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Dla układów równań:
+ metoda eliminacji,
+ metoda macierzowa
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Twierdzenie o istnieniu i jednoznaczności rozwiązania równania różniczkowego}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie Picarda-Lindelöfa}
+\end_layout
+
+\begin_layout Plain Layout
+
+Niech $f(x,y)$ będzie funkcją ciągłą i spełniającą warunek Lipschitza względem $y$ w pewnym otoczeniu punktu $(x_0,
+ y_0)$.
+ Wtedy istnieje jednoznaczne rozwiązanie równania różniczkowego:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frac{dy}{dx} = f(x,y),
+ 
+\backslash
+quad y(x_0) = y_0
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+w pewnym otoczeniu punktu $x_0$.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Warunki twierdzenia}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Ciągłość $f(x,y)$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Warunek Lipschitza:
+ $
+\backslash
+exists L > 0:
+ |f(x,y_1) - f(x,y_2)| 
+\backslash
+leq L|y_1 - y_2|$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Ograniczoność $f(x,y)$ w rozważanym obszarze
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Zliczanie elementów sumy mnogościowej zbiorów skończonych.
+ Zasada włączeń i wyłączeń}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Suma mnogościowa}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dla zbiorów skończonych $A_1,
+ A_2,
+ 
+\backslash
+ldots,
+ A_n$:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+|A_1 
+\backslash
+cup A_2 
+\backslash
+cup 
+\backslash
+cdots 
+\backslash
+cup A_n| = 
+\backslash
+sum_{i=1}^n |A_i| - 
+\backslash
+sum_{i<j} |A_i 
+\backslash
+cap A_j| + 
+\backslash
+sum_{i<j<k} |A_i 
+\backslash
+cap A_j 
+\backslash
+cap A_k| - 
+\backslash
+cdots + (-1)^{n+1} |A_1 
+\backslash
+cap A_2 
+\backslash
+cap 
+\backslash
+cdots 
+\backslash
+cap A_n|
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Zasada włączeń i wyłączeń}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dla zdarzenia $A_i$:
+ "liczba ma właściwość $i$",
+ liczba elementów mających co najmniej jedną z $n$ właściwości wynosi:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+N = 
+\backslash
+sum_{k=1}^n (-1)^{k+1} 
+\backslash
+sum_{1 
+\backslash
+leq i_1 < 
+\backslash
+cdots < i_k 
+\backslash
+leq n} |A_{i_1} 
+\backslash
+cap 
+\backslash
+cdots 
+\backslash
+cap A_{i_k}|
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykład}
+\end_layout
+
+\begin_layout Plain Layout
+
+Liczba liczb niepodzielnych przez 2,
+ 3 ani 5 w przedziale $[1,n]$:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+N = n - (
+\backslash
+lfloor 
+\backslash
+frac{n}{2} 
+\backslash
+rfloor + 
+\backslash
+lfloor 
+\backslash
+frac{n}{3} 
+\backslash
+rfloor + 
+\backslash
+lfloor 
+\backslash
+frac{n}{5} 
+\backslash
+rfloor) + (
+\backslash
+lfloor 
+\backslash
+frac{n}{6} 
+\backslash
+rfloor + 
+\backslash
+lfloor 
+\backslash
+frac{n}{10} 
+\backslash
+rfloor + 
+\backslash
+lfloor 
+\backslash
+frac{n}{15} 
+\backslash
+rfloor) - 
+\backslash
+lfloor 
+\backslash
+frac{n}{30} 
+\backslash
+rfloor
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Grupa i jej przykłady.
+ Twierdzenie o postaci grup skończonych abelowych}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Definicja grupy}
+\end_layout
+
+\begin_layout Plain Layout
+
+Grupa to zbiór $G$ z działaniem dwuargumentowym $*$,
+ spełniający:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Łączność:
+ $(a * b) * c = a * (b * c)$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Istnienie elementu neutralnego $e$:
+ $
+\backslash
+forall a 
+\backslash
+in G:
+ a * e = e * a = a$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Istnienie elementu odwrotnego:
+ $
+\backslash
+forall a 
+\backslash
+in G 
+\backslash
+exists a^{-1}:
+ a * a^{-1} = a^{-1} * a = e$
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykłady grup}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $({
+\backslash
+mathbb Z},
+ +)$ - liczby całkowite z dodawaniem
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $({
+\backslash
+mathbb Q} 
+\backslash
+setminus 
+\backslash
+{0
+\backslash
+},
+ 
+\backslash
+cdot)$ - liczby wymierne bez zera z mnożeniem
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Grupa symetrii figury geometrycznej
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Grupa permutacji zbioru $n$-elementowego $S_n$
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie o postaci grup skończonych abelowych}
+\end_layout
+
+\begin_layout Plain Layout
+
+Każda skończona grupa abelowa jest izomorficzna z grupą postaci:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+mathbb Z}_{n_1} 
+\backslash
+times {
+\backslash
+mathbb Z}_{n_2} 
+\backslash
+times 
+\backslash
+cdots 
+\backslash
+times {
+\backslash
+mathbb Z}_{n_k}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+gdzie $n_1 | n_2 | 
+\backslash
+cdots | n_k$ (tzn.
+ $n_i$ dzieli $n_{i+1}$).
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Zwartość.
+ Podprzestrzenie zwarte przestrzeni euklidesowych}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Definicja zwartości}
+\end_layout
+
+\begin_layout Plain Layout
+
+Przestrzeń topologiczna $X$ jest zwarta,
+ jeśli z każdego otwartego pokrycia $X$ można wybrać skończone podpokrycie.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie Heinego-Borela}
+\end_layout
+
+\begin_layout Plain Layout
+
+W przestrzeni euklidesowej ${
+\backslash
+mathbb R}^n$,
+ zbiór jest zwarty wtedy i tylko wtedy,
+ gdy jest domknięty i ograniczony.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Podprzestrzenie zwarte przestrzeni euklidesowych}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Skończone zbiory punktów
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Domknięte przedziały $[a,b]$ w ${
+\backslash
+mathbb R}$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Domknięte kule $B[x,r] = 
+\backslash
+{y 
+\backslash
+in {
+\backslash
+mathbb R}^n :
+ d(x,y) 
+\backslash
+leq r
+\backslash
+}$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Domknięte i ograniczone podzbiory ${
+\backslash
+mathbb R}^n$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Grafy funkcji ciągłych na zwartych dziedzinach
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Własności zbiorów zwartych}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Obraz ciągły zbioru zwartego jest zwarty
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Przecięcie rodziny zbiorów zwartych jest zbiorem zwartym
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Produkt kartezjański skończonej liczby zbiorów zwartych jest zwarty
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Ciągłość funkcji.
+ Niezmienniki przekształceń ciągłych}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Definicja ciągłości}
+\end_layout
+
+\begin_layout Plain Layout
+
+Funkcja $f:
+ X 
+\backslash
+to Y$ jest ciągła w punkcie $x_0 
+\backslash
+in X$,
+ jeśli:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+forall 
+\backslash
+varepsilon > 0 
+\backslash
+exists 
+\backslash
+delta > 0 :
+ d_X(x,
+ x_0) < 
+\backslash
+delta 
+\backslash
+Rightarrow d_Y(f(x),
+ f(x_0)) < 
+\backslash
+varepsilon
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Niezmienniki przekształceń ciągłych}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Spójność:
+ Obraz zbioru spójnego jest spójny
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Zwartość:
+ Obraz zbioru zwartego jest zwarty
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Ograniczoność:
+ Obraz zbioru ograniczonego jest ograniczony
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Domkniętość:
+ Przeciwobraz zbioru domkniętego jest domknięty
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Własność Darboux:
+ Funkcje ciągłe na przedziałach przyjmują wszystkie wartości pośrednie
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Różniczkowalność w sensie zespolonym.
+ Równania Cauchy'ego-Riemanna}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Różniczkowalność w sensie zespolonym}
+\end_layout
+
+\begin_layout Plain Layout
+
+Funkcja $f:
+ 
+\backslash
+mathbb{C} 
+\backslash
+to 
+\backslash
+mathbb{C}$ jest różniczkowalna w sensie zespolonym w punkcie $z_0$,
+ jeśli istnieje granica:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+f'(z_0) = 
+\backslash
+lim_{h 
+\backslash
+to 0} 
+\backslash
+frac{f(z_0 + h) - f(z_0)}{h}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Równania Cauchy'ego-Riemanna}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dla $f(x+iy) = u(x,y) + iv(x,y)$,
+ funkcja jest różniczkowalna w sensie zespolonym wtedy i tylko wtedy,
+ gdy:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frac{
+\backslash
+partial u}{
+\backslash
+partial x} &= 
+\backslash
+frac{
+\backslash
+partial v}{
+\backslash
+partial y} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frac{
+\backslash
+partial u}{
+\backslash
+partial y} &= -
+\backslash
+frac{
+\backslash
+partial v}{
+\backslash
+partial x}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Konsekwencje}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Funkcje różniczkowalne w sensie zespolonym są nieskończenie wiele razy różniczkowalne
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Części rzeczywista i urojona funkcji holomorficznej są funkcjami harmonicznymi
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Twierdzenie Cauchy'ego dla funkcji holomorficznych.
+ Wzór całkowy Cauchy'ego}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie Cauchy'ego}
+\end_layout
+
+\begin_layout Plain Layout
+
+Niech $f$ będzie funkcją holomorficzną w obszarze $D$.
+ Dla każdej krzywej zamkniętej $
+\backslash
+gamma$ w $D$:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+oint_
+\backslash
+gamma f(z) dz = 0
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Wzór całkowy Cauchy'ego}
+\end_layout
+
+\begin_layout Plain Layout
+
+Niech $f$ będzie funkcją holomorficzną w obszarze zawierającym domknięty kontur $
+\backslash
+gamma$ i jego wnętrze.
+ Dla każdego punktu $z_0$ wewnątrz $
+\backslash
+gamma$:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+f(z_0) = 
+\backslash
+frac{1}{2
+\backslash
+pi i} 
+\backslash
+oint_
+\backslash
+gamma 
+\backslash
+frac{f(z)}{z - z_0} dz
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Konsekwencje}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Funkcje holomorficzne są nieskończenie wiele razy różniczkowalne
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Wartość funkcji wewnątrz konturu jest jednoznacznie określona przez jej wartości na konturze
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Zasada maksimum modułu:
+ Moduł funkcji holomorficznej osiąga maksimum na brzegu obszaru
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Przestrzeń liniowa,
+ baza,
+ wymiar,
+ przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Definicja przestrzeni liniowej}
+\end_layout
+
+\begin_layout Plain Layout
+
+Przestrzeń liniowa (wektorowa) nad ciałem $K$ to zbiór $V$ z działaniami dodawania wektorów i mnożenia przez skalar,
+ spełniający określone aksjomaty.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Baza przestrzeni liniowej}
+\end_layout
+
+\begin_layout Plain Layout
+
+Baza to liniowo niezależny układ wektorów generujący całą przestrzeń.
+ Każdy wektor przestrzeni można jednoznacznie przedstawić jako kombinację liniową wektorów bazowych.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Wymiar przestrzeni liniowej}
+\end_layout
+
+\begin_layout Plain Layout
+
+Wymiar to liczba wektorów w bazie przestrzeni.
+ Przestrzenie o tym samym wymiarze są izomorficzne.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykłady}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+mathbb{R}^n$ - przestrzeń $n$-wymiarowych wektorów rzeczywistych
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $
+\backslash
+mathbb{C}^n$ - przestrzeń $n$-wymiarowych wektorów zespolonych
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $P_n$ - przestrzeń wielomianów stopnia $
+\backslash
+leq n$
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $C[a,b]$ - przestrzeń funkcji ciągłych na przedziale $[a,b]$ (nieskończenie wymiarowa)
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item $M_{n 
+\backslash
+times m}$ - przestrzeń macierzy $n 
+\backslash
+times m$
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Twierdzenie Kroneckera - Capellego.
+ Wymiar przestrzeni rozwiązań}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Twierdzenie Kroneckera-Capellego}
+\end_layout
+
+\begin_layout Plain Layout
+
+Układ równań liniowych $AX = B$ ma rozwiązanie wtedy i tylko wtedy,
+ gdy rząd macierzy $A$ jest równy rzędowi macierzy rozszerzonej $[A|B]$.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Wymiar przestrzeni rozwiązań}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dla układu jednorodnego $AX = 0$:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+dim(
+\backslash
+ker A) = n - 
+\backslash
+text{rank}(A)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+gdzie $n$ to liczba niewiadomych.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Konsekwencje}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Jeśli $
+\backslash
+text{rank}(A) = 
+\backslash
+text{rank}[A|B] < n$,
+ układ ma nieskończenie wiele rozwiązań
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Jeśli $
+\backslash
+text{rank}(A) = 
+\backslash
+text{rank}[A|B] = n$,
+ układ ma dokładnie jedno rozwiązanie
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+item Jeśli $
+\backslash
+text{rank}(A) < 
+\backslash
+text{rank}[A|B]$,
+ układ jest sprzeczny
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Przykład}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dla układu:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+x + y + z &= 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+x - y + 2z &= 2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+2x + z &= 3
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+Macierz $A$ ma rząd 3,
+ więc układ ma dokładnie jedno rozwiązanie.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{document}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
